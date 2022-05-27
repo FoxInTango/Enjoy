@@ -1,3 +1,4 @@
+教材：https://www.bilibili.com/video/BV1xS4y1w7Sz
 
 交流与直流通路：
     电容 - 容抗
@@ -9,10 +10,29 @@
 选频网络 ： 
     概念 ： 导纳 - https://baike.baidu.com/item/%E5%AF%BC%E7%BA%B3/9957133?fr=aladdin
     LC谐振回路 - 单回路 - 并联谐振回路
+                              谐振频率 Wo = 1  / sqr(L * C)    Fo = 1 / ( 2 * Pi * sqr(L * C) )
+                              谐振电阻 Rp = L  / rC = Q Ro
+                              特性阻抗 Ro = Wo * L = 1 / (Wo * C) = sqr ( L / C ) 
+                              空载品质因数 Q  = Wo * L / r = 1 / ( r * Wo * C ) = sqr (L / C) / r = Rp / Ro
+                              有载品质因素 Qt = Rt / Ro = ( Rt // Rs // Rp ) / Ro 
+                              等效阻抗 Z = Rp / (1 + jQ * 2 * delta * W / Wo)
+                              通频带 B（W0.7）= fo / Q 
+                              选择性
+                              * 损耗电阻 与 谐振电阻
+                              * 电路失谐 与 失谐状态下各项参数
                         - 串联谐振回路
+
+                        信号源及负载对谐振回路的影响：
+                            信号源内阻及负载阻抗使回路品质因数下降，通频带变宽，选择性变差
                  双回路 - 耦合谐振 （阻抗变换电路）
 
     集中选频滤波器 - 石英晶体滤波器
                    - 陶瓷滤波器
                    - 声表面滤波器
+
+    阻抗变换电路：
+        阻抗变换电路的作用： https://zhuanlan.zhihu.com/p/36390823
+        1,变压器阻抗变换
+        2,电感阻抗变换
+        3,电容阻抗变换
               
