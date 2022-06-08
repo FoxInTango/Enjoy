@@ -16,6 +16,9 @@
     <Filter Include="源文件\VexFlow">
       <UniqueIdentifier>{83ba4108-0c2e-462b-919b-8eb992d5efbb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Math">
+      <UniqueIdentifier>{593aa237-206f-4037-8afc-f3ad2a584013}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Sources\电子电路">
@@ -30,5 +33,13 @@
     <None Include="..\..\..\Sources\VexFlow\index">
       <Filter>源文件\VexFlow</Filter>
     </None>
+    <None Include="..\..\..\Sources\Math\微积分">
+      <Filter>源文件\Math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件\VexFlow</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

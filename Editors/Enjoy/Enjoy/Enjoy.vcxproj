@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\..\..\Sources\Math\微积分" />
     <None Include="..\..\..\Sources\VexFlow\index" />
     <None Include="..\..\..\Sources\电子电路" />
     <None Include="..\..\..\Sources\通信原理" />
     <None Include="..\..\..\Sources\通信电路" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,12 @@
 教程 https://www.bilibili.com/video/BV1JK4y1e7Ue?spm_id_from=333.337.search-card.all.click
 
 第一章 极限
-    极限类型 
+    极限类型
+    前置 - 求导公式
+    概念 - 左极限 与 右极限
     一,无穷大 / 无穷大 
        极限方法 ：1,只保留分子与分母中含x指数最大的项
                   2,分子分母同时求导 - 洛必达法则
+    二,零 / 零 型
+
+    
